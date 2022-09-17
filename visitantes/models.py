@@ -65,7 +65,7 @@ class Visitante(models.Model):
 
     class Meta:
         verbose_name = "Visitante"
-        verbose_name_plurar = "Visitantes"
+        verbose_name_plural = "Visitantes"
         db_table = "visitante"
 
     def __str__(self):
